@@ -1,0 +1,83 @@
+body{
+  /* Styles apply to everything in the body unless prioritized otherwise. */
+  font-family:Garamond;
+  background-image: url("l8bg.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:rgb(228, 233, 219);
+  font-size:18px;
+  width:70%;
+  padding:5%;
+  margin:auto;
+  text-align:justify;
+
+}
+
+/* A Before Selector , first line of each <p>*/
+p::first-line{
+font-variant: small-caps;
+color:black;
+font-size:22px;
+}
+
+/* Highlight out sentences with "outward" colors */
+.important{
+  color:rgb(220, 229, 233);
+  background-color:rgb(230, 55, 70);
+  font-style:italic;
+  font-size:18px;
+  
+}
+
+/* Holds the paragraphs */
+div{
+  border:0px white solid;
+  border-radius: 4px;
+  background-color:grey;
+  padding:6px;
+}
+/*Paragraph headings*/
+.headingmain{
+  text-decoration:underline;
+  color:rgb(70, 41, 97);
+  font-size:28px;
+
+}
+
+/* All the <p> elements inside the only <div>.
+Consider assigned an id to <div> if there are multiple <divs>. 
+*/
+div > p{
+  border:1px white solid;
+  padding:5px;
+}
+
+
+
+#paraOne{
+  color:rgb(100, 20, 20);
+  font-weight:700px;
+}
+
+#paraTwo{
+  font-family:fantasy;
+  color:rgb(22,22,22);
+}
+
+/* Third paragraph. Max font weight is 1000. */
+#paraThree{
+  color:rgb(77, 83, 66);
+  text-align:justify;
+  font-weight:900;
+}
+/* First heading at the top */
+#headingTitle{
+  color:rgb(57, 59, 46);
+
+}
+
+/* Combinator */
+/* Child selector (Combinator) Blue */
+div > .childselector{
+  color:blueviolet;
+}
