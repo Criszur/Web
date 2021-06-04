@@ -1,0 +1,100 @@
+
+body{
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  font-family:Verdana;
+  color:beige;
+  font-size: 16px;
+  text-align: justify
+  width: 80%;
+  padding:15px
+  /* set up one style for all document */
+}
+
+#headprincipal {
+  text-align:  center;
+  color: rgb(20, 213, 84);
+  border: 3px solid whitesmoke;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  /*for the principal title in the top*/
+}
+.principalidea {
+  background-color: #685d64c1;
+  Color: rgb(13, 251, 255);
+  font-style: italic;
+  font-family: Oxygen;
+  font-size: 15px;
+  font-weight:  900;
+  /*for princial ideas in one sentence with a diferent color*/
+}
+#x{
+  color:beige;
+  text-align: justify;
+  font-family: Arial;
+  font-weight:  800;
+  /*for the first paragraph*/
+}
+#y{
+  color:beige;
+  text-align:  right;
+  font-family: Arial;
+  font-weight:  600;
+  /*for the second paragraph*/
+  }
+#z{
+  color:beige;
+  text-align:   justify;
+  font-family: Tahoma;
+  font-weight:  400;
+    /*for the thrid paragraph*/
+}
+
+#r {
+  color:rgb(228, 252, 14);
+  text-align: justify;
+  font-family:  Impact;
+  font-weight:  500;
+   /*for the second principal paragraph*/
+}
+.subtitle {
+  text-align: center;
+  text-decoration: wavy;
+  color: rgb(245, 83, 132);
+  font-size: 28px;
+
+ /*style for all subtitle*/
+  }
+
+div{
+  background-color:rgba(9, 237, 187, 0.584);
+  border:1px aliceblue solid;
+  border-radius:5px;
+  padding: 5px;
+  /*style for all the paragraphs*/
+  }
+
+div > p{
+  border:5px rgba(255, 255, 255, 0.7) solid;
+  padding:4px;
+  border-radius:1px;
+  /*Selects all <p> elements where the parent is a <div> element*/
+}
+
+p::first-line{
+ font-variant:  initial;
+ color:rgb(237, 193, 19);
+ font-size: 18px;
+ /*Selector for change style in the first line of paragrph*/
+
+}
+
+div > .childselector {
+  color:rgb(221, 245, 8);
+  font-family: Haettenschweiler;
+  font-size: 21px;
+  
+}
